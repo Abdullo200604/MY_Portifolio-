@@ -53,8 +53,8 @@ export function Navigation({ language }: NavigationProps) {
   }
 
   return (
-    <nav className="fixed left-8 top-1/2 -translate-y-1/2 z-40 hidden lg:block">
-      <div className="space-y-6">
+    <nav className="fixed left-8 top-1/3 -translate-y-1/2 z-40 hidden lg:block">
+      <div className="space-y-3">
         {navItems[language].map((item) => (
           <button
             key={item.id}
